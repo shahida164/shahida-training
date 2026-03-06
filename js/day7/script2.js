@@ -2,8 +2,8 @@
 //Assignment an Accessor Properties
 console.log("Assignment an Accessor Properties");
 var person = {
-    firstName: "Sruthi",
-    lastName: "Dubasi",
+    firstName: "Shahida",
+    lastName: "sunni",
     get fullName() {
         return this.firstName + " " + this.lastName;
     }
