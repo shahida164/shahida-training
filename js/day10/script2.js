@@ -16,9 +16,9 @@ for (var i = 0; i < products.length; i++) {
   console.log("Total Price:", totalPrice);
 
   if (products[i].qty < 5) {
-    console.log("Stock Status: Low Stock ");
+    console.log("Stock Status: Low Stock ⚠");
   } else {
-    console.log("Stock Status: Stock Available ");
+    console.log("Stock Status: Stock Available ✅");
   }
 
   console.log("---------------------------");
